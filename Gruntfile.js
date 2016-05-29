@@ -218,7 +218,7 @@ var TaskRunner = {
 		grunt.registerTask('serve', ['open','connect','watch']);
 		grunt.registerTask('dist', ['shell:polybuild', 'clean:dist', 'copy:build', 'renameBuild','replace:distBuild','clean:src','copy:resource']);
 		grunt.registerTask('develop', ['dist', 'serve']);
-		//grunt.registerTask('release', ['shell:getMergeWithMaster', 'force:on', 'shell:commitDevelopBranch', 'force:off',  'shell:switchToMaster', 'shell:pullMaster', 'shell:gitMerge', 'dist', 'clean:release', 'copy:dist', 'clean:releaseDist', 'replace:release', 'replace:releaseBuild', 'shell:gitCommit', 'shell:gitPush']);
+		grunt.registerTask('release', ['shell:getMergeWithMaster', 'force:on', 'shell:commitDevelopBranch', 'force:off',  'shell:switchToMaster', 'shell:pullMaster', 'shell:gitMerge', 'dist', 'clean:release', 'copy:dist', 'clean:releaseDist', 'replace:release', 'replace:releaseBuild', 'shell:gitCommit', 'shell:gitPush']);
 	}
 
 };
