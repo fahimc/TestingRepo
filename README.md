@@ -54,7 +54,7 @@ View
 		|- Template
 		|- Style
 		|- Controller
-Manager
+Managersdsdsds
 	|- AssetManager
 	|- SoundManager
 Event
