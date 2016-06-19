@@ -196,9 +196,10 @@ vccp-dev release [--prod || --uat]
 
 ###Flags  
 
-Please read the documentation for [vccp-dev](https://github.com/vccp/vccp-dev).
+Please read the documentation for [vccp-dev](https://github.com/vccp/vccp-dev).  
+
 | **Name**  | **Description**  |  
-|---   |---   |
+|---   |---   |  
 |--uat| releases compiled code to the `uat` branch|  
 |--prod| pushes development code to the `master` branch and releases compile to the `release` branch. A **tag** will be created. |  
   
